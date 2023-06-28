@@ -12,6 +12,13 @@ const byCrewTimelineOptions = {
             hour: "ddd D MMMM"
         }
     },
+    editable: {
+        add: true,
+        remove: true,
+        updateGroup: true,
+        updateTime: true,
+        overrideItems: true
+    },
     stack: false,
     xss: {disabled: true}, // Items are XSS safe through JQuery
     // zoomMin: 3 * 1000 * 60 * 60 // Three day in milliseconds
@@ -31,6 +38,13 @@ const byJobTimelineOptions = {
         majorLabels: {
             hour: "ddd D MMMM"
         }
+    },
+    editable: {
+        add: true,
+        remove: true,
+        updateGroup: true,
+        updateTime: true,
+        overrideItems: true
     },
     xss: {disabled: true}, // Items are XSS safe through JQuery
     // zoomMin: 3 * 1000 * 60 * 60 // Three day in milliseconds
